@@ -12,7 +12,7 @@ def hola(nombre):
 # Una vez terminada la funcion ejecutar este archivo
 # Si se ve la leyenda 'Ejercicio terminado OK' esta listo, crear un PR
 
-assert hola("Juan") == "Hola Juan."
+assert hola("Juan") == "Hola Juan"
 assert hola("Pedro") == "Hola Pedro"
 
 print('Ejercicio terminado OK')
