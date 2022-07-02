@@ -3,6 +3,11 @@
 Ejercicios de Python de complejidad creciente.  
 No es necesario que se hagan en orden.  
 
+**Nota importante:** Todos los ejercicios incluyen al final pruebas
+rápidas para saber si tu solución funciona o no.  
+Se usa para esto `assert` que es ideal para realizar comprobaciones rápidas.  
+Más info sobre `assert` [aquí](https://ellibrodepython.com/assert-python).  
+
 **Opcional**: si conoces Git y tenes cuenta en GitHub/GitLab:
 Hacer un _fork_ o copiar el repositorio antes de comenzar
 de modo que los _pull requests_ que se hagan como tarea
