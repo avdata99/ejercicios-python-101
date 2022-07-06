@@ -24,9 +24,17 @@ Se espera como resultado:
 def process_data(data):
     pass
 
-# NO BORRAR LAS LINEAS QUE SIGUEN
-# Una vez terminada la funcion ejecutar este archivo
-# Si se ve la leyenda 'Ejercicio terminado OK' está listo, crear un PR
+
+# ------------------------------------------------------------------------
+# NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
+# ------------------------------------------------------------------------
+# Una vez terminada la tarea ejecutar este archivo.
+# Si se ve la leyenda 'Ejercicio terminado OK' el ejercicio se considera completado.
+# La instruccion "assert" de Python lanzará un error si lo que se indica a
+#   continuacion es falso.
+# Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
+#   crear un "pull request" y solicitar revision de un tercero.
+
 
 data = """
 nombre;edad;pais

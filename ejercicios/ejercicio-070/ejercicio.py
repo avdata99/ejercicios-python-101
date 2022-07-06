@@ -20,9 +20,15 @@ def multisuma(*args):
     return resultado
 
 
-# NO BORRAR LAS LINEAS QUE SIGUEN
-# Una vez terminada la funcion ejecutar este archivo
-# Si se ve la leyenda 'Ejercicio terminado OK' esta listo, crear un PR
+# ------------------------------------------------------------------------
+# NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
+# ------------------------------------------------------------------------
+# Una vez terminada la tarea ejecutar este archivo.
+# Si se ve la leyenda 'Ejercicio terminado OK' el ejercicio se considera completado.
+# La instruccion "assert" de Python lanzará un error si lo que se indica a
+#   continuacion es falso.
+# Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
+#   crear un "pull request" y solicitar revision de un tercero.
 
 assert multisuma(3, 4, 5) == 12
 assert multisuma(3, 1, 5) == 9

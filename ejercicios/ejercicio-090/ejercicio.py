@@ -24,9 +24,16 @@ def calcular_edad(fecha_nac_str):
     return diff.days // 365
 
 
-# NO BORRAR LAS LINEAS QUE SIGUEN
-# Una vez terminada la funcion ejecutar este archivo
-# Si se ve la leyenda 'Ejercicio terminado OK' esta listo, crear un PR
+# ------------------------------------------------------------------------
+# NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
+# ------------------------------------------------------------------------
+# Una vez terminada la tarea ejecutar este archivo.
+# Si se ve la leyenda 'Ejercicio terminado OK' el ejercicio se considera completado.
+# La instruccion "assert" de Python lanzará un error si lo que se indica a
+#   continuacion es falso.
+# Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
+#   crear un "pull request" y solicitar revision de un tercero.
+
 
 assert calcular_edad(fecha_nac_str='2021-1-2') == 2
 assert calcular_edad(fecha_nac_str='2021-1-7') == 1
