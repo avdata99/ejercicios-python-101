@@ -5,8 +5,9 @@ letra de la "palabra" (string) que se pasa como parametro.
 
 
 def tercera_letra(palabra):
+    letra = palabra[2]
+    return letra
     pass
-
 
 # ------------------------------------------------------------------------
 # NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
