@@ -9,7 +9,7 @@ def hola(nombre):
     print(dato)
     #print(str(dato))
     # print(f" \"Hola {nombre}\" ")
-    pass
+    return str(dato)
 
 # ------------------------------------------------------------------------
 # NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
