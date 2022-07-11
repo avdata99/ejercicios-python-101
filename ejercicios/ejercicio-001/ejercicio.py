@@ -5,6 +5,10 @@ segun el "nombre" (string) que se pasa como parametro.
 
 
 def hola(nombre):
+    dato = '"' + 'Hola ' + nombre + '"'
+    print(dato)
+    #print(str(dato))
+    # print(f" \"Hola {nombre}\" ")
     pass
 
 # ------------------------------------------------------------------------
