@@ -6,8 +6,10 @@ pase como parámetro)
 
 
 def cambia_vocales(frase, vocal="a"):
-    pass
-
+    for letra in frase:
+        if letra.lower() in "aeiou":
+            frase = frase.replace(letra, vocal)
+    return frase
 
 # ------------------------------------------------------------------------
 # NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
