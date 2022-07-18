@@ -6,7 +6,11 @@ pase como parámetro)
 
 
 def cambia_vocales(frase, vocal="a"):
-    pass
+    vocales = ('a', 'e', 'i', 'o', 'u')
+    for x in frase:
+        if x in vocales:
+            frase = frase.replace(x, vocal)
+    return frase
 
 
 # ------------------------------------------------------------------------
@@ -18,6 +22,7 @@ def cambia_vocales(frase, vocal="a"):
 #   continuacion es falso.
 # Si usas GitHub (o similares) podes hacer una nueva rama con esta solución,
 #   crear un "pull request" y solicitar revision de un tercero.
+
 
 assert cambia_vocales("hola") == "hala"
 assert cambia_vocales("Juan Carlos") == "Jaan Carlas"
