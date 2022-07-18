@@ -12,6 +12,7 @@ def cambia_vocales(frase, vocal="a"):
             frase = frase.replace(x, vocal)
     return frase
 
+
 # ------------------------------------------------------------------------
 # NO BORRAR O MODIFICAR LAS LINEAS QUE SIGUEN
 # ------------------------------------------------------------------------
