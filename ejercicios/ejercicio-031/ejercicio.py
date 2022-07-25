@@ -22,7 +22,7 @@ pero la funcion da error en algunos casos como
 contar_si(lista, "apellido", "Gomez")
 donde en realidad esperamos que devuelva 1
 
-Tarea: Mejorar la función para que no de errores cuando 
+Tarea: Mejorar la función para que no de errores cuando una clave no existe
 """
 
 
