@@ -11,7 +11,7 @@ def contar_palabras(frase):
     con una llave por cada palabra y un valor igual a la
     cantidad de veces que aparece en la frase
     """
-    palabras = frase.split()
+    palabras = frase.split(' ')
     resultados = {}
     for palabra in palabras:
         if palabra in resultados.keys():
@@ -20,6 +20,7 @@ def contar_palabras(frase):
         else:
             # si no existe, inicializarla
             resultados[palabra] = 0
+            resultados[palabra] = 1
     return resultados
 
 
