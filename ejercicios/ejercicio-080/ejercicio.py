@@ -16,7 +16,8 @@ class Persona:
 
     @property
     def nombre(self):
-        return self._nombre.title()
+        ns = " ".join( self._nombre.split() )
+        return ns.title()
 
 
 def crear_multiples_personas(nombres):
@@ -45,6 +46,10 @@ def crear_multiples_personas(nombres):
 nombres = ['juan', 'Pedro', 'Juan manuel', ' victor  hugo ']
 personas = crear_multiples_personas(nombres)
 nombres_mejorados = [persona.nombre for persona in personas]
+
 assert nombres_mejorados == ['Juan', 'Pedro', 'Juan Manuel', 'Victor Hugo']
+
+
+
 
 print('Ejercicio terminado OK')
